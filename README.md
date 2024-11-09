@@ -86,7 +86,5 @@ Data Analysis
 
 Sample Outputs
 
-This repository contains sample outputs and visualizations generated from the analysis, located in the Sample_Outputs folder.
-How to Contribute
-
-If you'd like to contribute to this project or improve the analysis, please open a pull request or submit issues.
+This repository contains sample outputs and visualizations generated from the analysis, located in the  folder.
+How to Contribute. 
