@@ -3,13 +3,12 @@ Bank Marketing Campaign Analysis
 This project provides an analysis of a bank's direct marketing campaign data, aiming to predict whether a customer will subscribe to a term deposit based on demographic and behavioral factors. By leveraging data science techniques, this project explores insights into customer responses, offering actionable information for future marketing strategies.
 # Table of Contents
 - [Introduction](#introduction)
+- [Getting_Started](#Getting_Started)
+- [Repository_File_Structure](#Repository_File_Structure)
 - [Data Collection and Description](#data_collection_and_description)
-- [Dataset_Description](#dataset_description)
-- [Column_Definitions](#column_definitions)
-- [Data cleaning](#data_cleaning)
-- [Data_Analysis](#data_analysis)
+- [Data_mining](#Data_mining)
 - [Sample_Outputs](#sample_outputs)
-- [ License](#license)
+- [License](#license)
 
 ## Table of Content
 
@@ -52,7 +51,7 @@ Additional dependencies can be installed by running:
 
 pip install -r requirements.txt
 
-File Structure
+### Repository_File_Structure
 
     .gitignore: Excludes unnecessary files from version control.
     Bank_marketing_Campaign.ipynb: Main Jupyter notebook with code for data cleaning, EDA, and modeling.
@@ -81,7 +80,7 @@ The dataset bank-full.csv includes 17 attributes on customer demographics, finan
     poutcome: Outcome of the previous campaign
     deposit: Target variable indicating subscription (yes/no)
 
-Data mining
+## Data_mining
 
 Initial data preprocessing involves handling missing values, encoding categorical variables. This ensures data quality and consistency before analysis.
 Data Analysis
@@ -91,13 +90,13 @@ Data Analysis
     Feature Importance: Identifying the most influential features on customer decisions.
     Hyperparameter Tuning: Adjusting model parameters to enhance prediction accuracy.
 
-Sample Outputs
+## Sample_Outputs
 
 The repository includes sample outputs, such as:
 
     Feature Importance Plot: Visualization of key features influencing the model’s predictions.
     Model Performance Metrics: Accuracy and validation scores of the classifier.
 
-License
+## License
 
 This project is licensed under the MIT License, permitting free use, modification, and distribution.
