@@ -1,87 +1,92 @@
-# PRODIGY_DS_03
-Descion Tree classifier to Predict wether a customer will purchase a product or Service Based thier Demographic and Behavioral data
+Bank Marketing Analysis
 
-# # Social Media Sentiment Analysis
-## Introduction
+This project focuses on analyzing customer data from a bank marketing campaign to understand factors influencing customer responses to marketing calls. By leveraging machine learning techniques, particularly a Decision Tree Classifier, this project predicts the likelihood of a customer purchasing a product or service based on demographic and behavioral data. Key insights generated from this analysis can help banks refine their targeting strategies and optimize future marketing efforts. This repository includes code, datasets, and detailed documentation for each step of the analysis process.
+Table of Contents
 
-This project analyzes sentiment patterns in social media data to uncover public opinion and attitudes toward specific topics or brands. Using state-of-the-art Natural Language Processing (NLP) techniques, such as TF-IDF and sentiment analysis with VADER, this project provides insights into positive, negative, and neutral sentiments expressed in social media posts. The results are visualized to help stakeholders understand audience perceptions and track sentiment trends over time. This repository includes the code, dataset, and detailed documentation to guide you through the analysis process.
+    Features
+    Installation
+    Data Collection
+    Dataset Description
+    Column Definitions
+    Data Cleaning
+    Data Analysis
+    Sample Outputs
+    License
 
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Data_Collection](#data_collection)
-- [Dataset_Description](#dataset_description)
-- [Column_Definitions](#column_definitions)
-- [Data cleaning](#data_cleaning)
-- [Data_Analysis](#data_analysis)
-- [Sample_Outputs](#sample_outputs)
-- [ License](#license)
-  
-## Features
-- EDA_Twitter
-- Entity-Wise Sentiment Analysis
-- Sentiment Distribution
-- TF-IDF for keyword extraction
+Features
 
-## Getting Started
-###  Installation
-Follow the instructions in the setup guide to install dependencies and run the analysis. Check out the examples provided for guidance on replicating the analysis or customizing it for your own data.
+    Exploratory Data Analysis (EDA): Summary statistics and data visualization of customer demographics and behavior.
+    Feature Engineering: Identification of important features influencing customer decisions.
+    Classification Model: Decision Tree model to predict customer response.
+    Evaluation Metrics: Accuracy, precision, recall, and F1-score for model performance.
 
-To run this repo, be sure to install the following environment and library:
+Getting Started
 
-**Python**: 3.11.8
-- **TensorFlow**: 2.18.0
-- **Keras**: 3.6.0
-- **Pandas**: 2.2.2
-- **NumPy**: 1.26.4
-- **h5py**: 3.12.1
-- **scikit-learn**: 1.5.2
+Installation
 
-And also the **important libraries** for this project are
-- [libraries.ipynb](./libraries.ipynb): Jupyter notebook listing libraries used in the project.
+Follow the instructions in the setup guide to install dependencies and run the analysis. Use the examples provided to replicate or customize the analysis for your own data.
 
-## File_Illustration
-### Data_Collection
-Data is collected from poloniex and parse to h5py file:
-You can use the data uploaded in this repository [twitter_training.csv](./twitter_training.csv): or you can access the dataset used in this project on Kaggle: [Twitter Entity Sentiment Analysis Dataset](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis).
+To run this repository, install the following dependencies:
 
-## Dataset_Description
+    Python: 3.11.8
+    scikit-learn: 1.5.2
+    pandas: 2.2.2
+    NumPy: 1.26.4
+    matplotlib: 3.8.0
+    seaborn: 0.12.0
 
-Sample of the data set:
+Additional Libraries: Essential libraries for this project are listed in libraries.ipynb.
+File Illustration
 
-| iD  | entity       | sentiment | text                                  |
-|-----|--------------|-----------|---------------------------------------|
-| 0   | 2401         | Borderlands| Positive  | I'm getting Borderlands murder.       |
-| 1   | 2401         | Borderlands| Positive  | I'm coming borders, I kill all.      |
-| 2   | 2401         | Borderlands| Positive  | I'm getting Borderlands, kill all.   |
-| 3   | 2401         | Borderlands| Positive  | I'm coming Borderlands, murder all.  |
-| 4   | 2401         | Borderlands| Positive  | I'm getting Borderlands 2, murder all.|
+Data Collection
 
-### Column_Definitions
-- **iD**: A unique identifier for each entry.
-- **entity**: The entity being referred to, as example, "TomClancysRainbowSix, MaddenNFL, Borderlands.LeagueOfLegends,CallOfDuty,Verizon,CallOfDutyBlackopsColdWar,Facebook...."
-- **sentiment**: The sentiment expressed in the text (Positive,Neutral,Negative).
-- **text**: The user-generated text reflecting their opinion.
+Data is sourced from a bank marketing dataset provided in the repository. Alternatively, a similar dataset can be accessed on platforms like UCI's Bank Marketing Data Set.
 
-### Data_cleaning 
-Before diving directly ton data analysis it is good to have readly available data fro further operations, so data cleaning python file is  included in the repository.
-- [loading_data_And_Data_Cleaning.ipynb](./loading_data_And_Data_Cleaning.ipynb): Jupyter notebook for loading and cleaning the data.
+Dataset Description
 
-### Data_Analysis
-- Exploratory data analysis on Twitter data [EDA_Twitter.ipynb](./EDA_Twitter.ipynb): 
-- sentiment analysis by entity [Entity-Wise Sentiment Analysis.ipynb](./Entity-Wise%20Sentiment%20Analysis.ipynb)
-- TF-IDF keyword extraction, [TF-IDF for keyword extraction.ipynb](./TF-IDF%20for%20keyword%20extraction.ipynb)
+Dataset Description
 
-### Sample_Outputs
+This project uses a bank marketing dataset that contains demographic and financial details of customers who were targeted in a direct marketing campaign. Each entry represents a customer with a record of their engagement and response to the campaign.
+Sample of the Dataset:
+age	job	marital	education	default	balance	housing	loan	contact	day	month	duration	campaign	pdays	previous	poutcome	deposit
+58	management	married	tertiary	no	2143	yes	no	unknown	5	may	261	1	-1	0	unknown	no
+44	technician	single	secondary	no	29	yes	no	unknown	5	may	151	1	-1	0	unknown	no
+33	entrepreneur	married	secondary	no	2	yes	yes	unknown	5	may	76	1	-1	0	unknown	no
+47	blue-collar	married	unknown	no	1506	yes	no	unknown	5	may	92	1	-1	0	unknown	no
+33	unknown	single	unknown	no	1	no	no	unknown	5	may	198	1	-1	0	unknown	no
+Column Definitions:
 
-This repository contains sample outputs of the data analysis
+    age: Age of the customer.
+    job: Job type (e.g., management, technician, blue-collar, entrepreneur, etc.).
+    marital: Marital status of the customer (e.g., single, married).
+    education: Education level (e.g., secondary, tertiary).
+    default: Whether the customer has a credit in default (yes/no).
+    balance: Balance in the customer’s account.
+    housing: Whether the customer has a housing loan (yes/no).
+    loan: Whether the customer has a personal loan (yes/no).
+    contact: Contact communication type (e.g., cellular, unknown).
+    day: Day of the month when the customer was last contacted.
+    month: Month when the customer was last contacted.
+    duration: Duration of the last contact with the customer, in seconds.
+    campaign: Number of contacts performed during this campaign for this customer.
+    pdays: Number of days that passed after the customer was last contacted from a previous campaign; -1 means the customer was not previously contacted.
+    previous: Number of contacts performed before this campaign.
+    poutcome: Outcome of the previous marketing campaign (e.g., success, failure, unknown).
+    deposit: Target variable, indicating whether the customer subscribed to the product (yes/no).
 
-- Sample outputs are there in the folder [TF-IDF for keyword extraction.ipynb](./TF-IDF%20for%20keyword%20extraction.ipynb)
-## How_to_Contribute
+This dataset allows for a comprehensive analysis of customer demographics, financial status, and response to marketing strategies, making it a valuable resource for understanding factors influencing customer engagement in bank marketing campaigns.
 
-If you'd like to contribute to this dataset or improve the analysis, feel free to open a pull request or submit issues.
+Data Cleaning
 
-## License
+The loading_data_and_data_cleaning.ipynb file includes code to prepare the dataset for analysis.
+Data Analysis
 
-This dataset is available under the [MIT License](LICENSE).
+    EDA on Bank Data: Analysis and visualization of key demographic and behavioral data (EDA_Bank_Marketing.ipynb).
+    Model Building and Evaluation: Training a Decision Tree classifier to predict customer responses and evaluating its performance (Classification_Model.ipynb).
 
+Sample Outputs
+
+This repository contains sample outputs and visualizations generated from the analysis, located in the Sample_Outputs folder.
+How to Contribute
+
+If you'd like to contribute to this project or improve the analysis, please open a pull request or submit issues.
