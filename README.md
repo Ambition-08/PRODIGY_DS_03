@@ -53,6 +53,12 @@ This repository contains files and resources for the Bank Marketing Campaign Ana
 - [LICENSE](LICENSE): License details for the project.
 - [README.md](README.md): This README file, which provides an overview of the project, dataset, and file descriptions.
 
+## Installation and Usage
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/BankMarketingCampaign.git
+
 ## Data_Collection_and_Description
 
 The dataset bank-full.csv includes 17 attributes on customer demographics, financial history, and response to the bank campaign. The key columns include:
