@@ -49,23 +49,38 @@ pip install -r requirements.txt
 ## Data_Collection_and_Description
 
 The dataset bank-full.csv includes 17 attributes on customer demographics, financial history, and response to the bank campaign. The key columns include:
+### Data Sample
 
-    age: Customer age
-    job: Occupation type
-    marital: Marital status
-    education: Education level
-    default: Credit in default (yes/no)
-    balance: Average yearly balance in euros
-    housing: Housing loan status
-    loan: Personal loan status
-    contact: Contact communication type
-    day and month: Last contact day and month
-    duration: Last contact duration in seconds
-    campaign: Number of contacts performed during the campaign
-    pdays: Days since the customer was last contacted
-    previous: Number of contacts before this campaign
-    poutcome: Outcome of the previous campaign
-    deposit: Target variable indicating subscription (yes/no)
+Below is a sample of the `bank-full.csv` dataset, showcasing the attributes used for analysis.
+
+| age | job          | marital | education | default | balance | housing | loan | contact | day | month | duration | campaign | pdays | previous | poutcome | deposit |
+|-----|--------------|---------|-----------|---------|---------|---------|------|---------|-----|-------|----------|----------|-------|----------|----------|---------|
+| 58  | management   | married | tertiary  | no      | 2143    | yes     | no   | unknown | 5   | may   | 261      | 1        | -1    | 0        | unknown  | no      |
+| 44  | technician   | single  | secondary | no      | 29      | yes     | no   | unknown | 5   | may   | 151      | 1        | -1    | 0        | unknown  | no      |
+| 33  | entrepreneur | married | secondary | no      | 2       | yes     | yes  | unknown | 5   | may   | 76       | 1        | -1    | 0        | unknown  | no      |
+| 47  | blue-collar  | married | unknown   | no      | 1506    | yes     | no   | unknown | 5   | may   | 92       | 1        | -1    | 0        | unknown  | no      |
+| 33  | unknown      | single  | unknown   | no      | 1       | no      | no   | unknown | 5   | may   | 198      | 1        | -1    | 0        | unknown  | no      |
+
+**Column Definitions**:
+
+- **age**: Customer’s age
+- **job**: Occupation type
+- **marital**: Marital status
+- **education**: Education level
+- **default**: Has credit in default? (yes/no)
+- **balance**: Average yearly balance in euros
+- **housing**: Has a housing loan? (yes/no)
+- **loan**: Has a personal loan? (yes/no)
+- **contact**: Contact communication type
+- **day** and **month**: Last contact day and month
+- **duration**: Last contact duration in seconds
+- **campaign**: Number of contacts during this campaign
+- **pdays**: Days since last contact with the customer
+- **previous**: Number of previous contacts
+- **poutcome**: Outcome of the previous marketing campaign
+- **deposit**: Target variable indicating if the customer subscribed (yes/no)
+
+This sample illustrates the diversity in customer demographics and attributes that influence their response to the bank's marketing campaigns.
 
 ## Data_mining
 
