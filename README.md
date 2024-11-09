@@ -109,6 +109,7 @@ Data Analysis
 ## Sample_Outputs
 
 The repository includes sample outputs, such as:
+[Output](Output/): Contains sample output files and visualizations generated from the analysis, which illustrate key insights and model results.
 
     Feature Importance Plot: Visualization of key features influencing the model’s predictions.
     Model Performance Metrics: Accuracy and validation scores of the classifier.
