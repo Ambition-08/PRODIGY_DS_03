@@ -11,7 +11,7 @@ This project provides an analysis of a bank's direct marketing campaign data, ai
 - [Sample_Outputs](#sample_outputs)
 - [ License](#license)
 
-
+## Table of Content
 
     Introduction
     Features
@@ -60,7 +60,7 @@ File Structure
     README.md: Overview and instructions for project usage.
     bank-full.csv: Dataset containing customer demographic and behavioral data, used for analysis and modeling.
 
-## Data Collection and Description
+## Data_Collection_and_Description
 
 The dataset bank-full.csv includes 17 attributes on customer demographics, financial history, and response to the bank campaign. The key columns include:
 
