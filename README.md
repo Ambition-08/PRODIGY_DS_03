@@ -1,7 +1,17 @@
 Bank Marketing Campaign Analysis
 
 This project provides an analysis of a bank's direct marketing campaign data, aiming to predict whether a customer will subscribe to a term deposit based on demographic and behavioral factors. By leveraging data science techniques, this project explores insights into customer responses, offering actionable information for future marketing strategies.
-Table of Contents
+# Table of Contents
+- [Introduction](#introduction)
+- [Data_Collection](#data_collection)
+- [Dataset_Description](#dataset_description)
+- [Column_Definitions](#column_definitions)
+- [Data cleaning](#data_cleaning)
+- [Data_Analysis](#data_analysis)
+- [Sample_Outputs](#sample_outputs)
+- [ License](#license)
+
+
 
     Introduction
     Features
@@ -14,7 +24,7 @@ Table of Contents
     Sample Outputs
     License
 
-Introduction
+## Introduction
 
 This project analyzes a dataset from a bank’s direct marketing campaign, identifying patterns in customer demographics and financial attributes to understand factors influencing customer engagement. By building and tuning a Decision Tree classifier, this project aims to predict customer subscription to the term deposit product.
 Features
@@ -24,7 +34,7 @@ Features
     Feature Importance Analysis to understand the drivers of customer behavior
     Hyperparameter Tuning for model optimization
 
-Getting Started
+## Getting_Started
 
 Clone the repository and follow the installation instructions to set up the project environment. The repository includes Jupyter notebooks with code, data, and sample outputs for easy reproduction of the analysis.
 Installation
