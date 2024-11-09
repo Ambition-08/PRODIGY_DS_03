@@ -60,7 +60,7 @@ File Structure
     README.md: Overview and instructions for project usage.
     bank-full.csv: Dataset containing customer demographic and behavioral data, used for analysis and modeling.
 
-Data Collection and Description
+## Data Collection and Description
 
 The dataset bank-full.csv includes 17 attributes on customer demographics, financial history, and response to the bank campaign. The key columns include:
 
