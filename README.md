@@ -3,7 +3,7 @@ Bank Marketing Campaign Analysis
 This project provides an analysis of a bank's direct marketing campaign data, aiming to predict whether a customer will subscribe to a term deposit based on demographic and behavioral factors. By leveraging data science techniques, this project explores insights into customer responses, offering actionable information for future marketing strategies.
 # Table of Contents
 - [Introduction](#introduction)
-- [Data_Collection](#data_collection)
+- [Data Collection and Description](#data_collection_and_description)
 - [Dataset_Description](#dataset_description)
 - [Column_Definitions](#column_definitions)
 - [Data cleaning](#data_cleaning)
