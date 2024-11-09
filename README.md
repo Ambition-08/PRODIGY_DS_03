@@ -6,6 +6,7 @@ This project provides an analysis of a bank's direct marketing campaign data, ai
 - [Getting_Started](#Getting_Started)
 - [Repository_File_Structure](#Repository_File_Structure)
 - [Data Collection and Description](#data_collection_and_description)
+- [Data_Sample](#Data_Sample)
 - [Data_mining](#Data_mining)
 - [Sample_Outputs](#sample_outputs)
 - [License](#license)
@@ -49,7 +50,7 @@ pip install -r requirements.txt
 ## Data_Collection_and_Description
 
 The dataset bank-full.csv includes 17 attributes on customer demographics, financial history, and response to the bank campaign. The key columns include:
-### Data Sample
+### Data_Sample
 
 Below is a sample of the `bank-full.csv` dataset, showcasing the attributes used for analysis.
 
