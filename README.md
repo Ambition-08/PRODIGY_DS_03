@@ -10,19 +10,6 @@ This project provides an analysis of a bank's direct marketing campaign data, ai
 - [Sample_Outputs](#sample_outputs)
 - [License](#license)
 
-## Table of Content
-
-    Introduction
-    Features
-    Getting Started
-    Installation
-    File Structure
-    Data Collection and Description
-    Data Cleaning
-    Data Analysis
-    Sample Outputs
-    License
-
 ## Introduction
 
 This project analyzes a dataset from a bank’s direct marketing campaign, identifying patterns in customer demographics and financial attributes to understand factors influencing customer engagement. By building and tuning a Decision Tree classifier, this project aims to predict customer subscription to the term deposit product.
