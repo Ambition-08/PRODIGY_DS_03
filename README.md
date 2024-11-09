@@ -76,11 +76,7 @@ Before diving directly ton data analysis it is good to have readly available dat
 
 This repository contains sample outputs of the data analysis
 
-- Negative sentiment words [Negative Sentiment Words.png](./Negative%20Sentiment%20Words.png)
-- Entity-wise sentiment analysis [outputEntity-Wise Sentiment Analysis.png](./outputEntity-Wise%20Sentiment%20Analysis.png)
-- Positive sentiment words [Positive Sentiment Words.png](./Positive%20Sentiment%20Words.png)
-- sentiment distribution [Sentiment Distribution.png](./Sentiment%20Distribution.png)
-
+- Sample outputs are there in the folder [TF-IDF for keyword extraction.ipynb](./TF-IDF%20for%20keyword%20extraction.ipynb)
 ## How_to_Contribute
 
 If you'd like to contribute to this dataset or improve the analysis, feel free to open a pull request or submit issues.
