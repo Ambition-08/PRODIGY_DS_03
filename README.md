@@ -41,11 +41,17 @@ pip install -r requirements.txt
 
 ### Repository_File_Structure
 
-    .gitignore: Excludes unnecessary files from version control.
-    Bank_marketing_Campaign.ipynb: Main Jupyter notebook with code for data cleaning, EDA, and modeling.
-    LICENSE: License file for project usage terms.
-    README.md: Overview and instructions for project usage.
-    bank-full.csv: Dataset containing customer demographic and behavioral data, used for analysis and modeling.
+   # Bank Marketing Campaign Analysis
+
+This repository contains files and resources for the Bank Marketing Campaign Analysis project, which uses demographic and behavioral data to predict whether a customer will subscribe to a term deposit.
+
+## Repository Contents
+
+- [Bank_marketing_Campaign.ipynb](Bank_marketing_Campaign.ipynb): Jupyter notebook with the complete data analysis, including data cleaning, exploration, and predictive modeling.
+- [bank-full.csv](bank-full.csv): The dataset used in this analysis, containing information on customer demographics, financial status, and interactions with the bank.
+- [.gitignore](.gitignore): Specifies files and directories that should be ignored by Git.
+- [LICENSE](LICENSE): License details for the project.
+- [README.md](README.md): This README file, which provides an overview of the project, dataset, and file descriptions.
 
 ## Data_Collection_and_Description
 
