@@ -99,13 +99,13 @@ This sample illustrates the diversity in customer demographics and attributes th
 ## Data_mining
 
 Initial data preprocessing involves handling missing values, encoding categorical variables. This ensures data quality and consistency before analysis.
-Data Analysis
+Data Analysis.
 
     Exploratory Data Analysis: Understanding distribution, correlations, and patterns within the data.
     Model Training: Training a Decision Tree classifier to predict the likelihood of term deposit subscription.
     Feature Importance: Identifying the most influential features on customer decisions.
     Hyperparameter Tuning: Adjusting model parameters to enhance prediction accuracy.
-
+- [Bank_marketing_Campaign.ipynb](Bank_marketing_Campaign.ipynb): Jupyter notebook with the complete data analysis, including data cleaning, exploration, and predictive modeling
 ## Sample_Outputs
 
 The repository includes sample outputs, such as:
